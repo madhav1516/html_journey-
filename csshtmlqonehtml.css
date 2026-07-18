@@ -1,0 +1,64 @@
+#box{
+
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+#red{
+    height: 60px;
+    width: 64px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border: 2px solid red;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 2px;
+    
+}
+#yellow{
+    height: 60px;
+    width: 64px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border: 2px solid yellow;
+    margin-top: 3px;
+    margin-bottom:2px;
+    margin-left: 1px;
+    margin-right: 2px;
+
+}
+#green{
+    height: 60px;
+    width: 64px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border: 2px solid green;
+    margin-top:3px;
+    margin-left: 1px;
+    margin-right: 2px;
+    margin-bottom: 6px;
+
+}
+#red:hover{
+    background-color: red;
+}
+#yellow:hover{
+    background-color: yellow;
+}
+#green:hover{
+    background-color: green;
+}
+#box:hover{
+    background-color: black;
+}
