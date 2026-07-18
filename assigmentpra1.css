@@ -20,3 +20,56 @@ h1{
     background-color: darkgreen;
     color: darkred;
 }
+/* desendent selctor */
+
+p a{
+    background-color: lightgreen;
+    color: crimson;
+}
+nav li{
+    color: coral;
+}
+nav li a {
+    color: rgb(102, 46, 4);
+}
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: rgb(94, 94, 197);
+}
+div > input{
+    background-color: darkgrey;
+}
+input[type = "text"]{
+    color: rgb(92, 10, 207);
+
+}
+input[type ^= "Password"]{
+    color: rgb(207, 65, 110);
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color: skyblue;
+    color: red;
+}
+
+p:active{
+    
+    color: sandybrown;
+}
+input[type="radio"]:checked + label{
+    
+    color: #b92b27;
+
+}
