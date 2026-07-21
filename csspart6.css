@@ -1,0 +1,64 @@
+body{
+    background-color: wheat;
+}
+p{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#containor{
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 300px;
+    width: 800px;
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start f; 
+    align-self: center;
+
+
+}
+#one{
+    height: 50px;
+    width: 125px;
+    background-color: rgb(183, 11, 183);
+}
+#two{
+    height: 50px;
+    width: 125px;
+    background-color: indigo;
+}
+#three{
+    height: 50px;
+    width: 125px;
+    background-color:blue ;
+}
+#four{
+    height: 50px;
+    width: 125px;
+    background-color: green;
+}
+#five{
+    height: 50px;
+    width: 125px;
+    background-color: yellow;
+}
+#six{
+    height: 50px;
+    width: 125px;
+    background-color: orange;
+}
+#seven{
+    height: 50px;
+    width: 125px;
+    background-color: red;
+}
+
+
+
+
