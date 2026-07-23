@@ -20,10 +20,16 @@ p{
     align-items: center;
     align-content: flex-start f; 
     align-self: center;
+    justify-content: space-between;
+    justify-content: flex-start;
+
 
 
 }
 #one{
+    align-self: flex-start;
+    flex-shrink: 6;
+    max-width: 400px;
     height: 50px;
     width: 125px;
     background-color: rgb(183, 11, 183);
@@ -35,14 +41,23 @@ p{
 }
 #three{
     height: 50px;
-    width: 125px;
+  
+    flex-basis: 400px;
+    /* flex-grow: 3;
+     */
+    flex-shrink: 2;
     background-color:blue ;
+    flex-shrink: 3;
 }
 #four{
     height: 50px;
     width: 125px;
     background-color: green;
+    max-width: 400px;
+    flex: 2 2 100px;
 }
+
+
 #five{
     height: 50px;
     width: 125px;
@@ -56,6 +71,8 @@ p{
 #seven{
     height: 50px;
     width: 125px;
+    align-self: flex-end;
+    
     background-color: red;
 }
 
