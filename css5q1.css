@@ -1,0 +1,15 @@
+#outer{
+    height: 50px;
+    width: 900px;
+    border: 2px solid green;
+    background-color: pink;
+    border-radius: 10px 10px 10px 10px;
+}
+#inner{
+    flex-direction: row;
+    justify-content: flex-end;
+    display: inline-block;
+    margin: 10px;
+    font-size: 24px;
+
+}
