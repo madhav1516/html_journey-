@@ -1,0 +1,57 @@
+#outer{
+    height: 500px;
+    width: 500px;
+    border: 2px solid green;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+#inner{
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content:space-around;
+    margin: 20px;
+    background-color: gray;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    text-align: center;
+    font-size: 2cm;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.A:hover{
+    color: aqua;
+}
+
+.B:hover{
+    color: blue;
+}
+.C:hover{
+    color: yellow;
+}
+.D:hover{
+    color: violet;
+}
+.E:hover{
+    color: springgreen;
+}
+.F:hover{
+    color: brown;
+}
+.G:hover{
+    color: palegreen;
+}
+.H:hover{
+    color: tomato;
+}
+.I:hover{
+    color: chocolate;
+}
