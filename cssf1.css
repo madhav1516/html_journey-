@@ -386,7 +386,9 @@ h1:hover{
     font-weight: bold;
     font-size: larger;
 }
-#alex
+#alex:hover{
+    box-shadow: 8px 8px 10px blueviolet;
+}
 
 
 
@@ -403,12 +405,66 @@ h1:hover{
 #ast{
     margin-top: 12px;
     margin-left: 16px;
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 450px;
     background-color: rgb(2, 110, 2);
     border: 2px solid red;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 
 }
+
+#ferd{
+    margin: 45px 4px 4px 25px ;
+    height: 400px;
+    width: 400px;
+    background-image: url(f1\ driver/);
+    background-size: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#fern{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: larger;
+}
+#ferd:hover{
+    box-shadow: 8px 8px 10px blanchedalmond;
+}
+
+#lance{
+    margin: 45px 4px 4px 25px ;
+    height: 400px;
+    width: 400px;
+    background-image: url(f1\ driver/);
+    background-size: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+#lancos{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
 #alp{
     margin-top: 12px;
     margin-left: 16px;
