@@ -605,3 +605,14 @@ h1:hover{
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
+#est{
+    margin: 45px 4px 4px 25px ;
+    height: 400px;
+    width: 400px;
+    background-image: url(f1\ driver/);
+    background-size: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
