@@ -545,9 +545,48 @@ h1:hover{
     border-bottom-right-radius: 10%;
 
 }
-
-
-
+#nico{
+    margin: 45px 4px 4px 25px ;
+    height: 400px;
+    width: 400px;
+    background-image: url(f1\ driver/);
+    background-size: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+#nico:hover{
+    box-shadow: 8px 8px 10px red;
+}
+#nic{
+    color: rgb(13, 13, 107);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: larger;
+}
+#gab{
+    margin: 45px 4px 4px 25px ;
+    height: 400px;
+    width: 400px;
+    background-image: url(f1\ driver/);
+    background-size: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+#gab:hover{
+    box-shadow: 8px 8px 10px red;
+}
+#gabri{
+    color: rgb(13, 13, 107);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: larger;
+}
 
 
 
