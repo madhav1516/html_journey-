@@ -501,6 +501,27 @@ h1:hover{
     font-weight: bold;
     font-size: larger;
 }
+#franco{
+    margin: 45px 4px 4px 25px ;
+    height: 400px;
+    width: 400px;
+    background-image: url(f1\ driver/);
+    background-size: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+#franco:hover{
+    box-shadow: 8px 8px 10px rgb(36, 245, 4);
+}
+#frn{
+    color: rgb(13, 13, 107);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: larger;
+}
 
 
 
@@ -514,12 +535,22 @@ h1:hover{
 #aud{
     margin-top: 12px;
     margin-left: 16px;
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 450px;
     background-color: silver;
     border: 2px solid red;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 
 }
+
+
+
+
+
+
 
 #has{
     margin-top: 12px;
