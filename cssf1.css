@@ -638,5 +638,12 @@ h1:hover{
     border-bottom-right-radius: 5%;
 }
 #oliver:hover{
-    
+    box-shadow: 8px 8px 10px red;
+}
+#oli{
+    color: red;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: larger;
 }
