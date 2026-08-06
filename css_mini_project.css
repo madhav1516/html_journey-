@@ -24,8 +24,7 @@
     width: 300px;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow:  0 0 2px rgba(255, 255, 255, 0.5);
-    border-top-right-radius: 2cm;
-    border-bottom-right-radius: 2cm;
+    
 }
 .sidebar_menu .logo{
     position: absolute;
@@ -42,6 +41,8 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: 500px;
+    cursor: none;
+    margin: 15px;
 
 }
 .sidebar_menu .btn_two{
@@ -50,7 +51,8 @@
     font-weight: 60px;
     position: absolute;
     left: 275px;
-    opacity: 0;
+    opacity: 1;
+    cursor: pointer;
 
 }
 .sidebar_menu .menu{
@@ -69,10 +71,14 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
+    padding: 10px;
+    
 
 }
 .sidebar_menu .menu i{
     padding-right: 8px;
+    padding: 30px;
+    
 
 }
 .sidebar_menu .social_media{
@@ -109,4 +115,26 @@
 }
 #check:checked~.sidebar_menu{
     left: 0px;
+    
+}
+.sidebar_menu:hover{
+    transition: 0.5s;
+    
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar_menu .menu li{
+    color: white;
+    size: 10px;
+    
+}
+.sidebar_menu .social_media a:hover{
+    size: 15px;
+    color: white;
+    background-color: red;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transform: translateY(-10px);
 }
