@@ -1,0 +1,36 @@
+#qo{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2px;
+    padding: 1px;
+}
+
+#one{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    display: inline;
+
+    margin-top: 45px;
+    margin: 45px;
+    border-top-left-radius: 99192700px;
+    border-top-right-radius: 99192700px;
+    border-bottom-left-radius: 99192700px;
+    border-bottom-right-radius: 99192700px;
+    padding: 34px;
+   
+}
+#li{
+    margin: 50px;
+    
+}
+#tec{
+    display: inline;
+}
